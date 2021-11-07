@@ -4,7 +4,7 @@ import logo from "../Image/Logo-Final.png";
 
 const HomeHeader = () => {
   return (
-    <div className="img-fluid bgImgHeader pb-5">
+    <div className="headerWithImageBg img-fluid bgImgHeader pb-1">
       <Container>
         <Row>
           <Col sm={12}>
