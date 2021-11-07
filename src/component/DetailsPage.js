@@ -7,6 +7,8 @@ import locataion from "../Image/pexels-snapwire-38867.jpeg";
 import lost from "../Image/lost.jpg";
 import service from "../Image/pexels-photo-5256142.jpeg";
 import play from "../Image/pexels-bin-ziegler-1364729.jpg";
+import market from "../Image/market.jpg";
+import arwin from "../Image/Arwin.jpg";
 //import blog from "../Image/pexels-snapwire-38867.jpg";
 import Schedule from "../Image/pexels-photo-5731866.jpeg";
 //import Donation from "../Image/dotane.jpg";
@@ -369,7 +371,7 @@ const DetailsPage = () => {
         >
           <Col md={3}>
             <div>
-              <img className="img-fluid" src={Services} alt="" />
+              <img className="img-fluid" src={market} alt="" />
             </div>
           </Col>
           <Col md={9}>
@@ -445,7 +447,7 @@ const DetailsPage = () => {
           </Col>
           <Col md={3}>
             <div>
-              <img className="img-fluid" src={service} alt="" />
+              <img className="img-fluid" src={arwin} alt="" />
             </div>
           </Col>
         </Row>
