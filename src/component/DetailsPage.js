@@ -308,6 +308,7 @@ const DetailsPage = () => {
             </div>
           </Col>
         </Row>
+
         <Row
           style={{
             borderTop: "1px solid grey",
@@ -366,6 +367,11 @@ const DetailsPage = () => {
             marginBottom: "25px",
           }}
         >
+          <Col md={3}>
+            <div>
+              <img className="img-fluid" src={Services} alt="" />
+            </div>
+          </Col>
           <Col md={9}>
             <div className="headCol">
               <h1 className="mb-3">Zoonders Marketplace</h1>
@@ -405,23 +411,13 @@ const DetailsPage = () => {
                     Vitamins and Pill Supplements
                   </span>{" "}
                 </li>
-                <p>And much more!</p>
+                <p>And much more! </p>
               </ol>
-            </div>
-          </Col>
-          <Col md={3}>
-            <div>
-              <img className="img-fluid" src={Services} alt="" />
             </div>
           </Col>
         </Row>
 
         <Row style={{ borderTop: "1px solid grey", paddingTop: "25px" }}>
-          <Col md={3}>
-            <div>
-              <img className="img-fluid" src={service} alt="" />
-            </div>
-          </Col>
           <Col md={9}>
             <div className="headCol">
               <h1 className="mb-3">Our story</h1>
@@ -445,6 +441,11 @@ const DetailsPage = () => {
                 and understand the immeasurable value of companionship that your
                 pets provide.
               </p>
+            </div>
+          </Col>
+          <Col md={3}>
+            <div>
+              <img className="img-fluid" src={service} alt="" />
             </div>
           </Col>
         </Row>
