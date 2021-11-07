@@ -2,7 +2,34 @@
 
 /* 
  // for small devices */
-@media only screen and (max-width: 600px) {
+
+ @media (max-width: 575px) {
+  .fotter-parr p {
+    text-align: center !important;
+    margin-bottom: 15px !important;
+  }
+
+  .footer-link-edit {
+    display: flex;
+    justify-content: center;
+  }
+
+  .ftImg img{
+    width: 140px;
+    height: auto;
+  }
+
+  .smMrBt{margin-bottom: 25px;}
+}
+
+@media (min-width: 576px) {
+  .fotter-parr p {
+    text-align: center !important;
+    margin-bottom: 15px !important;
+  }
+}
+
+@media only screen and (max-width: 576px) {
   .headerWithImageBg {
     height: 100vh !important;
     width: 100vw !important;
@@ -24,9 +51,9 @@ for extra big devices */
     width: 30% !important;
     padding-left: -40px !important;
   }
-  .headerBottom {
+  /* .headerBottom {
     width: 90vw !important;
-  }
+  } */
 }
 /* style={{ backgroundColor:"#00aff0"}} */
 .bgImgHeader {

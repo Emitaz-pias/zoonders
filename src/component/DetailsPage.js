@@ -106,7 +106,7 @@ const DetailsPage = () => {
           </Col>
           <Col md={3}>
             <div>
-              <img className="img-fluid" src={Schedule} alt="" />
+              <img className="img-fluid smMrBt" src={Schedule} alt="" />
             </div>
           </Col>
         </Row>
@@ -261,7 +261,7 @@ const DetailsPage = () => {
           </Col>
           <Col md={3}>
             <div>
-              <img className="img-fluid" src={discover} alt="" />
+              <img className="img-fluid smMrBt" src={discover} alt="" />
             </div>
           </Col>
         </Row>
@@ -447,7 +447,7 @@ const DetailsPage = () => {
           </Col>
           <Col md={3}>
             <div>
-              <img className="img-fluid" src={arwin} alt="" />
+              <img className="img-fluid smMrBt" src={arwin} alt="" />
             </div>
           </Col>
         </Row>

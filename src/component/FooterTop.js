@@ -8,12 +8,12 @@ const FooterTop = () => {
     return (
         <Container>
             <Row className="mb-4 mt-4">
-                <Col md={6}>
+                <Col xs={6}>
                     <div className="ftImg">
-                        <img className="img-fluid" style={{ width: "200px", height: "135px", float: "left" }} src={topImg} alt="" />
+                        <img className="img-fluid" style={{ maxWidth: "200px", height: "135px", float: "left" }} src={topImg} alt="" />
                     </div>
                 </Col>
-                <Col md={6} className="d-flex justify-content-end align-items-end">
+                <Col xs={6} className="d-flex justify-content-end align-items-end">
                             <Stack direction="horizontal" gap={4}>
                                 <div className="bg-primary iconEdit">
                                         <FontAwesomeIcon icon={faFacebookF} />
