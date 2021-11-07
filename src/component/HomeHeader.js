@@ -17,11 +17,11 @@ const HomeHeader = () => {
           </Col>
         </Row>
         <Row>
-          <Col sm={12} className="txt mt-5">
+          <Col sm={12} className="headerTxt mt-5">
             <h2>
-              Think Of Zonnders As The Facebook Of The Pet World. It is a Free
-              Social Network Platforms Designed To Connect Local Pet Owners Into
-              A Community.
+              Think of Zonnders as The Facebook Of The Pet World. It is a Free
+              Social Network Platforms designed to connect Local Pet Owners into
+              a community.
             </h2>
           </Col>
         </Row>
