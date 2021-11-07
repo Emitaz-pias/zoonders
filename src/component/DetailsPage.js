@@ -237,7 +237,7 @@ const DetailsPage = () => {
                 <li>Easily filter for events that match what you enjoy</li>
               </ul>
 
-              <h4>How it Works</h4>
+              <h4>How it Works?</h4>
               <p>
                 All you have to do is input your area or have the app
                 automatically pinpoint your location. This will generate a list
@@ -460,7 +460,7 @@ const DetailsPage = () => {
           </Col>
           <Col md={9}>
             <div className="headCol">
-              <h1 className="mb-3">Why Use our Services</h1>
+              <h1 className="mb-3">Why Use our Services?</h1>
               <p className="dtParr">
                 Think of Zoonders as the Facebook of the pet world. It is a free
                 social network platform designed to connect local pet owners
