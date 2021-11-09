@@ -3,13 +3,9 @@ import { Container, Row, Col } from "react-bootstrap";
 
 const HeaderBottom = () => {
   return (
-    <Container className="headerBottom" style={{ marginTop: "-0.2rem" }}>
-      <Row className="mt-1 headerBottom">
-        <Col md={12}>
-          <h2 className="discover">A pet Community Around the World.</h2>
-        </Col>
-      </Row>
-    </Container>
+    <div>
+      <h2 className="headerBottom">A pet Community Around the World.</h2>
+    </div>
   );
 };
 
