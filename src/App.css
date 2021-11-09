@@ -169,7 +169,7 @@
 @media only screen and (min-width: 320px) and (max-width: 600px) {
   .relativeContainer {
     max-width: 100vw !important;
-    height: 90vh !important;
+    height: 150vh !important;
   }
   .logoImage {
     top: 2vh;
@@ -178,16 +178,16 @@
   .headerTxt {
     color: #f86e23;
     position: absolute !important;
-    top: 18vh !important;
+    top: 33vh !important;
     left: 4vw !important;
-    max-width: 45% !important;
+    max-width: 90% !important;
   }
   .topBannerImg {
     height: 50vh !important;
-    width: 70vw !important;
+    width: 80vw !important;
     position: relative !important;
-    top: 25vh !important;
-    left: 16vh !important;
+    top: 95vh !important;
+    left: 6vh !important;
   }
   .headerBottom {
     max-width: 100vw !important;
