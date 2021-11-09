@@ -46,22 +46,22 @@
 
   .headerTxt {
     color: #f86e23;
-    position: absolute;
-    top: 23vh;
-    left: 4vw;
+    position: absolute !important;
+    top: 23vh !important;
+    left: 4vw !important;
     max-width: 30% !important;
   }
   .topBannerImg {
-    height: 60vh !important;
+    height: 80vh !important;
     width: 55vw !important;
-    position: relative;
+    position: relative !important;
+    left: 40vw !important;
     margin-bottom: 3rem;
   }
   .headerBottom {
     max-width: 100vw !important;
-    margin-right: 20rem !important;
     margin-top: 1rem !important;
-    height: 3rem !important;
+    height: 4rem !important;
   }
   .features {
     max-width: 100vw !important;
