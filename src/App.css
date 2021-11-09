@@ -24,8 +24,8 @@
 
 @media (min-width: 576px) {
   .fotter-parr p {
-    text-align: center !important;
-    margin-bottom: 15px !important;
+    text-align: center;
+    margin-bottom: 15px;
   }
 }
 

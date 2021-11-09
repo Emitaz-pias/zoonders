@@ -8,7 +8,7 @@ const Footer = () => {
             <Container>
                 <Row className="pt-3 pb-3">
                     <Col md={4} xs={12} className="fotter-parr">
-                        <p className="mb-0 me-auto">© 2021 ZoonDers Inc.</p>
+                        <p className="mb-0">© 2021 ZoonDers Inc.</p>
                     </Col>
                     <Col md={8} xs={12}>
                         <div className="footer-link-edit d-flex justify-content-md-end justify-content-sm-center">
