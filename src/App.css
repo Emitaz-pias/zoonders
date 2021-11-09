@@ -1,70 +1,6 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css");
 
-/* 
- // for small devices */
-
-/* @media (max-width: 575px) {
-  .fotter-parr p {
-    text-align: center !important;
-    margin-bottom: 15px !important;
-  }
-
-  .footer-link-edit {
-    display: flex;
-    justify-content: center;
-  }
-
-  .ftImg img {
-    width: 140px;
-    height: auto;
-  }
-
-  .smMrBt {
-    margin-bottom: 25px;
-  }
-} */
-/* 
-@media (min-width: 576px) {
-  .fotter-parr p {
-    text-align: center;
-    margin-bottom: 15px;
-  }
-}
-
-@media only screen and (max-width: 576px) {
-  .headerWithImageBg {
-    height: 100vh !important;
-    width: 100vw !important;
-  }
-} */
-
-/* 
-for extra big devices */
-/* 
-
-@media only screen and (min-width: 1200px) {
-  .bgImgHeader {
-    max-width: 100vw !important;
-    background-size: 60vw 60vh !important;
-    background-repeat: no-repeat;
-    background-color: white;
-    background-position: 20.3rem 0.9rem !important;
-  }
-  .headerTxt {
-    color: #f86e23;
-    width: 30% !important;
-  }
-  .headerBottom {
-    width: 90vw !important;
-  }
-}
-.logoImage {
-  position: absolute;
-}
-
-// new
-
-  /*24 23 inch monitor */
+/*24 23 inch monitor */
 @media only screen and (min-width: 1920px) {
   .relativeContainer {
     max-width: 100vw !important;
@@ -76,14 +12,14 @@ for extra big devices */
 
   .headerTxt {
     color: #f86e23;
-    position: absolute;
-    top: 23vh;
-    left: 4vw;
+    position: absolute !important;
+    top: 23vh !important;
+    left: 4vw !important;
     max-width: 30% !important;
   }
   .topBannerImg {
-    height: 60vh !important;
-    width: 60vw !important;
+    height: 75vh !important;
+    width: 75vw !important;
     position: relative;
     left: 0rem;
   }
@@ -131,7 +67,137 @@ for extra big devices */
     max-width: 100vw !important;
   }
 }
-
+/* // laptop */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .relativeContainer {
+    max-width: 100vw !important;
+  }
+  .logoImage {
+    top: 2vh;
+    left: 8vw;
+  }
+  .headerTxt {
+    color: #f86e23;
+    position: absolute !important;
+    top: 18vh !important;
+    left: 4vw;
+    max-width: 30% !important;
+  }
+  .topBannerImg {
+    height: 60vh !important;
+    width: 50vw !important;
+    position: relative;
+    margin-bottom: 3rem;
+  }
+  .headerBottom {
+    max-width: 100vw !important;
+    margin-right: 20rem !important;
+    margin-top: 1rem !important;
+    height: 3rem !important;
+  }
+  .features {
+    max-width: 100vw !important;
+  }
+}
+/* 
+ tablets */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .relativeContainer {
+    max-width: 100vw !important;
+  }
+  .logoImage {
+    top: 2vh;
+    left: 8vw;
+  }
+  .headerTxt {
+    color: #f86e23;
+    position: absolute !important;
+    top: 22vh !important;
+    left: 4vw;
+    max-width: 30% !important;
+  }
+  .topBannerImg {
+    height: 75vh !important;
+    width: 61vw !important;
+    position: relative;
+    margin-bottom: 3rem;
+  }
+  .headerBottom {
+    max-width: 100vw !important;
+    margin-right: 5rem !important;
+    margin-top: 1rem !important;
+    height: 3rem !important;
+  }
+  .features {
+    max-width: 100vw !important;
+  }
+}
+/* big mobiles */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .relativeContainer {
+    max-width: 100vw !important;
+    height: 80vh !important;
+  }
+  .logoImage {
+    top: 2vh;
+    left: 8vw;
+  }
+  .headerTxt {
+    color: #f86e23;
+    position: absolute !important;
+    top: 18vh !important;
+    left: 4vw !important;
+    max-width: 40% !important;
+  }
+  .topBannerImg {
+    height: 60vh !important;
+    width: 45vw !important;
+    position: relative !important;
+    top: 10vh !important;
+  }
+  .headerBottom {
+    max-width: 100vw !important;
+    margin-right: 5rem !important;
+    margin-top: 1rem !important;
+    height: 3rem !important;
+  }
+  .features {
+    max-width: 100vw !important;
+  }
+}
+/* mobile view  */
+@media only screen and (min-width: 320px) and (max-width: 600px) {
+  .relativeContainer {
+    max-width: 100vw !important;
+    height: 90vh !important;
+  }
+  .logoImage {
+    top: 2vh;
+    left: 8vw;
+  }
+  .headerTxt {
+    color: #f86e23;
+    position: absolute !important;
+    top: 18vh !important;
+    left: 4vw !important;
+    max-width: 45% !important;
+  }
+  .topBannerImg {
+    height: 50vh !important;
+    width: 70vw !important;
+    position: relative !important;
+    top: 25vh !important;
+    left: 16vh !important;
+  }
+  .headerBottom {
+    max-width: 100vw !important;
+    margin-right: 3rem !important;
+    height: 25vh !important;
+  }
+  .features {
+    max-width: 100vw !important;
+  }
+}
 #root {
   background-color: #00aff0 !important;
 }
