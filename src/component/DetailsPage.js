@@ -66,7 +66,7 @@ const DetailsPage = () => {
             </div>
           </Col>
         </Row>
-        <Row style={{ borderTop: "1px solid grey", paddingTop: "25px" }}>
+        <Row style={{ borderTop: "1px solid grey", paddingTop: "25px" }} className="flex-column-reverse flex-lg-row">
           <Col md={9}>
             <div className="headCol">
               <h1 className="mb-3">Pet Schedule</h1>
@@ -104,7 +104,7 @@ const DetailsPage = () => {
               </p>
             </div>
           </Col>
-          <Col md={3} className="order-xs-first order-sm-first">
+          <Col md={3} className="">
             <div>
               <img className="img-fluid smMrBt" src={Schedule} alt="" />
             </div>
@@ -161,12 +161,7 @@ const DetailsPage = () => {
             </div>
           </Col>
         </Row>
-        <Row style={{ borderTop: "1px solid grey", paddingTop: "25px" }}>
-          <Col md={3}>
-            <div>
-              <img className="img-fluid" src={locataion} alt="" />
-            </div>
-          </Col>
+        <Row style={{ borderTop: "1px solid grey", paddingTop: "25px" }} className="flex-column-reverse flex-lg-row">
           <Col md={9}>
             <div className="headCol">
               <h1 className="mb-3">
@@ -210,8 +205,18 @@ const DetailsPage = () => {
               </p>
             </div>
           </Col>
+          <Col md={3}>
+            <div>
+              <img className="img-fluid" src={locataion} alt="" />
+            </div>
+          </Col>
         </Row>
         <Row style={{ borderTop: "1px solid grey", paddingTop: "25px" }}>
+          <Col md={3} className="">
+            <div>
+              <img className="img-fluid smMrBt" src={discover} alt="" />
+            </div>
+          </Col>
           <Col md={9}>
             <div className="headCol">
               <h1 className="mb-3">Discover Pet-Friendly Events Near You!</h1>
@@ -259,24 +264,14 @@ const DetailsPage = () => {
               </p>
             </div>
           </Col>
-          <Col md={3} className="order-xs-first order-sm-first">
-            <div>
-              <img className="img-fluid smMrBt" src={discover} alt="" />
-            </div>
-          </Col>
         </Row>
         <Row
           style={{
             borderTop: "1px solid grey",
             paddingTop: "25px",
             marginBottom: "25px",
-          }}
+          }} className="flex-column-reverse flex-lg-row"
         >
-          <Col md={3}>
-            <div>
-              <img className="img-fluid" src={lost} alt="" />
-            </div>
-          </Col>
           <Col md={9}>
             <div className="headCol">
               <h1 className="mb-3">LOST AND FOUND ALERTS!</h1>
@@ -309,6 +304,11 @@ const DetailsPage = () => {
                             </ul> */}
             </div>
           </Col>
+          <Col md={3}>
+            <div>
+              <img className="img-fluid" src={lost} alt="" />
+            </div>
+          </Col>
         </Row>
 
         <Row
@@ -318,6 +318,11 @@ const DetailsPage = () => {
             marginBottom: "25px",
           }}
         >
+          <Col md={3} className="">
+            <div>
+              <img className="img-fluid" src={Services} alt="" />
+            </div>
+          </Col>
           <Col md={9}>
             <div className="headCol">
               <h1 className="mb-3">Zoonder Services</h1>
@@ -355,11 +360,6 @@ const DetailsPage = () => {
               </ul>
             </div>
           </Col>
-          <Col md={3} className="order-xs-first order-sm-first">
-            <div>
-              <img className="img-fluid" src={Services} alt="" />
-            </div>
-          </Col>
         </Row>
 
         <Row
@@ -367,13 +367,8 @@ const DetailsPage = () => {
             borderTop: "1px solid grey",
             paddingTop: "25px",
             marginBottom: "25px",
-          }}
+          }} className="flex-column-reverse flex-lg-row"
         >
-          <Col md={3}>
-            <div>
-              <img className="img-fluid" src={market} alt="" />
-            </div>
-          </Col>
           <Col md={9}>
             <div className="headCol">
               <h1 className="mb-3">Zoonders Marketplace</h1>
@@ -417,9 +412,19 @@ const DetailsPage = () => {
               </ol>
             </div>
           </Col>
+          <Col md={3}>
+            <div>
+              <img className="img-fluid" src={market} alt="" />
+            </div>
+          </Col>
         </Row>
 
         <Row style={{ borderTop: "1px solid grey", paddingTop: "25px" }}>
+          <Col md={3}>
+            <div>
+              <img className="img-fluid smMrBt" src={arwin} alt="" />
+            </div>
+          </Col>
           <Col md={9}>
             <div className="headCol">
               <h1 className="mb-3">Our story</h1>
@@ -445,19 +450,9 @@ const DetailsPage = () => {
               </p>
             </div>
           </Col>
-          <Col md={3} className="order-xs-first order-sm-first">
-            <div>
-              <img className="img-fluid smMrBt" src={arwin} alt="" />
-            </div>
-          </Col>
         </Row>
 
-        <Row style={{ borderTop: "1px solid grey", paddingTop: "25px" }}>
-          <Col md={3}>
-            <div>
-              <img className="img-fluid" src={service} alt="" />
-            </div>
-          </Col>
+        <Row style={{ borderTop: "1px solid grey", paddingTop: "25px" }} className="flex-column-reverse flex-lg-row">
           <Col md={9}>
             <div className="headCol">
               <h1 className="mb-3">Why Use our Services?</h1>
@@ -485,6 +480,11 @@ const DetailsPage = () => {
                 new activities, friends, toys, and challenges, then Zoonders is
                 the app for you!
               </p>
+            </div>
+          </Col>
+          <Col md={3} className="order-xs-first">
+            <div>
+              <img className="img-fluid" src={service} alt="" />
             </div>
           </Col>
         </Row>
