@@ -66,7 +66,10 @@ const DetailsPage = () => {
             </div>
           </Col>
         </Row>
-        <Row style={{ borderTop: "1px solid grey", paddingTop: "25px" }} className="flex-column-reverse flex-lg-row">
+        <Row
+          style={{ borderTop: "1px solid grey", paddingTop: "25px" }}
+          className="flex-column-reverse flex-lg-row"
+        >
           <Col md={9}>
             <div className="headCol">
               <h1 className="mb-3">Pet Schedule</h1>
@@ -161,7 +164,10 @@ const DetailsPage = () => {
             </div>
           </Col>
         </Row>
-        <Row style={{ borderTop: "1px solid grey", paddingTop: "25px" }} className="flex-column-reverse flex-lg-row">
+        <Row
+          style={{ borderTop: "1px solid grey", paddingTop: "25px" }}
+          className="flex-column-reverse flex-lg-row"
+        >
           <Col md={9}>
             <div className="headCol">
               <h1 className="mb-3">
@@ -270,7 +276,8 @@ const DetailsPage = () => {
             borderTop: "1px solid grey",
             paddingTop: "25px",
             marginBottom: "25px",
-          }} className="flex-column-reverse flex-lg-row"
+          }}
+          className="flex-column-reverse flex-lg-row"
         >
           <Col md={9}>
             <div className="headCol">
@@ -367,7 +374,8 @@ const DetailsPage = () => {
             borderTop: "1px solid grey",
             paddingTop: "25px",
             marginBottom: "25px",
-          }} className="flex-column-reverse flex-lg-row"
+          }}
+          className="flex-column-reverse flex-lg-row"
         >
           <Col md={9}>
             <div className="headCol">
@@ -452,7 +460,10 @@ const DetailsPage = () => {
           </Col>
         </Row>
 
-        <Row style={{ borderTop: "1px solid grey", paddingTop: "25px" }} className="flex-column-reverse flex-lg-row">
+        <Row
+          style={{ borderTop: "1px solid grey", paddingTop: "25px" }}
+          className="flex-column-reverse flex-lg-row"
+        >
           <Col md={9}>
             <div className="headCol">
               <h1 className="mb-3">Why Use our Services?</h1>
