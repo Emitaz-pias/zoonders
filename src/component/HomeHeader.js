@@ -19,9 +19,8 @@ const HomeHeader = () => {
       <Row className="topBannerTex ps-3 flex-column-reverse flex-lg-row d-flex align-items-center ">
         <Col sm={6} className="headerTxt mt-3">
           <h2>
-            Think of Zonnders as The Facebook Of The Pet World. It is a Free
-            Social Network Platforms designed to connect Local Pet Owners into a
-            community.
+            Zoonders it is a free social network platform designed to connect
+            local and World -Wide pet owners into a community.
           </h2>
         </Col>
         <Col sm={6}>

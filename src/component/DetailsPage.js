@@ -40,15 +40,15 @@ const DetailsPage = () => {
                   an ideal playmate for your pet.
                 </li>
                 <li>
-                  You just need to create your pet’s profile along with some of
-                  his/her best shots to find the best possible match.
+                  You just need to create your pet’s profile to find the best
+                  possible match.
                 </li>
                 <li>
                   You can go through various pet profiles available at our app
                   and select your favorite.
                 </li>
                 <li>
-                  After selecting a match, you can start conversation with the
+                  After selecting a match, you can start a conversation with the
                   owner of that pet and if everything goes well, set a date for
                   your pet.
                 </li>
@@ -58,10 +58,10 @@ const DetailsPage = () => {
 
               <h4>How does it work?</h4>
               <p>
-                You just need to register yourself by creating an account on a
-                click. Also, create a profile of your pet, and you can start
-                chatting with the owners of your potential pet Playmates. You
-                can also organize play dates, meet- ups, events, and more.
+                You just need to create an account with just on a click. Also,
+                create a profile of your pet, and you can start chatting with
+                the owners of your potential pet Playmates. You can also
+                organize play dates, meet- ups, events, and more.
               </p>
             </div>
           </Col>
@@ -80,17 +80,12 @@ const DetailsPage = () => {
               <ul>
                 <li>Simple and easy to use</li>
                 <li>
-                  You can create and save a number of useful information about
-                  your pets.
-                </li>
-                <li>
-                  By setting schedules for your pets, you will never miss or
-                  forget essential cares for your furry buddies.
+                  You can create and save useful information about your pets.
                 </li>
                 <li>
                   Using this service, you can easily keep track of all the
-                  important dates like vet visits, vaccination, spa appointment,
-                  and more.
+                  important dates like vet visits, vaccination, spa
+                  appointments, and more.
                 </li>
                 <li>
                   You can stay up-to-date on your pet’s wellness using our Pet
@@ -100,10 +95,10 @@ const DetailsPage = () => {
               <h4>How does it Works?</h4>
               <p>
                 The Pet Schedule service is a great option to schedule and get
-                reminders for various activities related to pets. You just need
-                to feed the dates for various activities and set timer as per
-                your choice and you will automatically get a reminder regarding
-                the particular activity that needs to be performed.
+                reminders for various activities related to your pet. Set timer
+                as per your choices/activities and you will automatically get a
+                reminder regarding the particular activity that needs to be
+                performed.
               </p>
             </div>
           </Col>
@@ -129,15 +124,11 @@ const DetailsPage = () => {
             <div className="headCol">
               <h1 className="mb-3">Pet Adoption</h1>
               <p className="dtParr">
-                Whether you want to adopt a pet or need to place your pet for
-                adoption, Zoonders is a perfect medium where people who want to
-                adopt a pet can easily connect with people who need to rehome
-                their pets or just click on link in our app to connect to
-                Petfinders.com and your near Animal Shelters. <br />
-                You can directly interact with various pet owners who are
-                looking for adopters of their pets
+                If you’re looking to adopt a pet here at Zoonders we are big
+                supporters of petfinders.com as well as your Local Animal
+                Shelters Near You.
               </p>
-              <ul>
+              {/* <ul>
                 <li>
                   Adopters can learn about pets directly from the owners who
                   know them best
@@ -154,12 +145,16 @@ const DetailsPage = () => {
                   As well we are affiliated with Petfinders.com and local Pet
                   shelters
                 </li>
-              </ul>
-              <h4>How does it work?</h4>
+              </ul> */}
+              <h4>Why Use This Service?</h4>
               <p>
-                You just create your pet’s profile for adoption, review
-                applications, chat or meet with adopters and finalize the
-                adoption.
+                Zoonders provides a dedicated platform Link to get as many pets
+                as possible into a friendly, safe, and deserving forever home.
+                No need to look through shady listings or uninformative ads.
+                Petfinders.com and Local Animal Shelters tells you everything
+                you need to know about your future pet. From age, breed,
+                vaccination status, and much more, you’ll be able to find your
+                home’s newest addition in no time flat!
               </p>
             </div>
           </Col>
@@ -332,37 +327,67 @@ const DetailsPage = () => {
           </Col>
           <Col md={9}>
             <div className="headCol">
-              <h1 className="mb-3">Zoonder Services</h1>
-              <p>Some of the amenities you can find on Zoonders are:</p>
+              <h1 className="mb-3">Zoonders Services Links</h1>
+              <p>Some of the Links you can find on Zoonders are:</p>
               <ul>
                 <li>
-                  <span style={{ fontWeight: "bold" }}>Video Trainers :</span>{" "}
-                  Learn the best methods to train your pet. We have expert-made
-                  videos concerning both obedience and trick training.
+                  <span style={{ fontWeight: "bold" }}>
+                    <a className="serviceLinks" href="/">
+                      Pet Trainers
+                    </a>
+                    {/* Video Trainers : */}
+                  </span>{" "}
+                  {/*    Learn the best methods to train your pet. We have expert-made
+                  videos concerning both obedience and trick training. */}
                 </li>
+
                 <li>
-                  <span style={{ fontWeight: "bold" }}>Pet Walks :</span> For
-                  the busy pet owner, giving your pet a proper walk every day
+                  <span style={{ fontWeight: "bold" }}>
+                    <a className="serviceLinks" href="/">
+                      Pet Walkers
+                    </a>
+                    {/* Pet Walks : */}
+                  </span>{" "}
+                  {/*    For   the busy pet owner, giving your pet a proper walk every day
                   can be a bit too much. Break up your pet’s daily boredom with
-                  a scheduled walk even when you aren’t home.
+                  a scheduled walk even when you aren’t home. */}
                 </li>
                 <li>
                   <span style={{ fontWeight: "bold" }}>
-                    Boarding/Sitting Services :
+                    <a className="serviceLinks" href="/">
+                      Boarding/Sitting Services
+                    </a>
+                    {/* Boarding/Sitting Services : */}
                   </span>{" "}
-                  You can quickly find a trusted person to watch your pet while
+                  {/*  You can quickly find a trusted person to watch your pet while
                   you go on vacation or extended trip. This can be set up at
                   your home or theirs, and you’ll know that your pet is in good
-                  hands with your local community.
+                  hands with your local community. */}
                 </li>
                 <li>
                   <span style={{ fontWeight: "bold" }}>
-                    Live Video Veterinarians :
+                    <a className="serviceLinks" href="/">
+                      24/7 Live Video Veterinarians
+                    </a>
+                    {/* Live Video Veterinarians : */}
                   </span>{" "}
+                  {/*  Sometimes emergencies don’t allow you the time to drive to the
+                  vet. Also, most vet clinics aren’t open 24/7. Gain access to
+                  live video veterinarians so that you can have your pet’s
+                  health concerns addressed at any time. */}
+                </li>
+                <li>
+                  <span style={{ fontWeight: "bold" }}>
+                    <a className="serviceLinks" href="/">
+                      24/7 Animal ER
+                    </a>
+                    {/* Live Video Veterinarians : */}
+                  </span>{" "}
+                  {/*
                   Sometimes emergencies don’t allow you the time to drive to the
                   vet. Also, most vet clinics aren’t open 24/7. Gain access to
                   live video veterinarians so that you can have your pet’s
-                  health concerns addressed at any time.
+                  health concerns addressed at any time. */}
                 </li>
               </ul>
             </div>
@@ -379,45 +404,59 @@ const DetailsPage = () => {
         >
           <Col md={9}>
             <div className="headCol">
-              <h1 className="mb-3">Zoonders Marketplace</h1>
+              <h1 className="mb-3">Zoonders Marketplace Links</h1>
               <p>
                 Finding quality products you can trust for your pet requires a
                 suitable amount of in-depth research. Zoonders has affiliated
                 with a collection of reputable stores to show you the best
-                options available. All of the products on Zoonders Marketplace
-                have been thoroughly vetted for both health and effectiveness.
-                They are the greatest tools available for training, fun, and a
-                generally fantastic lifestyle!
+                options available. . They are the greatest tools available for
+                training, fun, and a generally fantastic lifestyle!
               </p>
               <h4>
                 A few of the special deals and goods you can find on Zoonders
-                Marketplace are:
+                Marketplace Links are:
               </h4>
-              <ol>
+              <ul>
                 <li>
-                  <span style={{ fontWeight: "bold" }}>Pet Gear :</span>{" "}
+                  <span style={{ fontWeight: "bold" }}>
+                    {" "}
+                    <a className="serviceLinks" href="/">
+                      Pet Gear :
+                    </a>{" "}
+                  </span>{" "}
                   Leashes, collars, training tools, bowls, etc…
                 </li>
                 <li>
-                  <span style={{ fontWeight: "bold" }}>Treats and Toys</span>
+                  <span style={{ fontWeight: "bold" }}>
+                    {" "}
+                    <a className="serviceLinks" href="/">
+                      Treats and Toys
+                    </a>{" "}
+                  </span>
                 </li>
                 <li>
                   <span style={{ fontWeight: "bold" }}>
-                    Pet Food for Different Breeds and Species
+                    <a className="serviceLinks" href="/">
+                      Pet Food for Different Breeds and Species
+                    </a>
                   </span>{" "}
                 </li>
                 <li>
                   <span style={{ fontWeight: "bold" }}>
-                    Grooming and General Care Equipment
+                    <a className="serviceLinks" href="/">
+                      Grooming and General Care Equipment
+                    </a>
                   </span>{" "}
                 </li>
                 <li>
                   <span style={{ fontWeight: "bold" }}>
-                    Vitamins and Pill Supplements
+                    <a className="serviceLinks" href="/">
+                      Vitamins and Pill Supplements
+                    </a>
                   </span>{" "}
                 </li>
                 <p>And much more! </p>
-              </ol>
+              </ul>
             </div>
           </Col>
           <Col md={3}>
@@ -439,14 +478,16 @@ const DetailsPage = () => {
               <h4>The Zoonders story started from a simple need.</h4>
               <p>
                 To provide a better, more improved relationship between pet
-                owners and their pets. <br />
+                owners and their pets.
+                <br />
                 Though many pet owners exist, the many challenges that pet
                 owners face when trying to feed, medicate, and groom their pets
                 can make pet ownership tiring. As pets, they also need to
                 socialize and build a community too.
                 <br />
                 All these challenges and then some can make pet lovers and
-                enthusiasts reconsider adopting a furry buddy. <br />
+                enthusiasts reconsider adopting a furry buddy.
+                <br />
                 Zoonders is a one-stop-all online pet platform (or a pet app, if
                 you wish) for anything and everything you need for your beloved
                 pets, from excellent grooming and medical service with the top
@@ -468,25 +509,21 @@ const DetailsPage = () => {
             <div className="headCol">
               <h1 className="mb-3">Why Use our Services?</h1>
               <p className="dtParr">
-                Think of Zoonders as the Facebook of the pet world. It is a free
-                social network platform designed to connect local pet owners
-                into a community. Pet profiles can include photos, videos, and
-                other information about each pet and even allows users to video
-                call or chat with one another. Zoonders offers pet news for an
-                extensive library of useful information. Not to mention, the app
-                works on a global scale, and exists anywhere that a strong pet
-                community can form. <br />
+                Zoonders it is a free social network platform designed to
+                connect local and World -Wide pet owners into a community. Pet
+                profiles can include photos, videos, and other information about
+                each pet and even allows users to video call or chat with one
+                another. Zoonders offers pet news for an extensive library of
+                useful information. Not to mention, the app works on a global
+                scale, and exists anywhere that a strong pet community can form.
+                <br />
                 We also consolidate all your pet’s needs into one marketplace,
                 so you don’t need to open up dozens of tabs to get everything
                 your pet requires. Such as food, preventative care, brushes, and
                 many other things. Our vendors are connected with pet stores and
                 provide products that have been vetted by veterinarians for
-                safety. <br />
-                Zoonders is committed to helping the increasing number of stray
-                animals around the world. Our pet adoption services connect
-                would-be pet owners with those looking to rehome their pet. This
-                gives animals the smoothest transition from one loving home to
-                the next. <br />
+                safety.
+                <br />
                 So, if you’re an owner looking to spice up your pet’s life with
                 new activities, friends, toys, and challenges, then Zoonders is
                 the app for you!
@@ -511,7 +548,7 @@ export default DetailsPage;
 //                         <div className="headCol">
 //                             <h1 className="mb-3">Pet Blog / News</h1>
 //                             <p className="dtParr">
-//                                 No matter how long you’ve had your pet, it’s always helpful to learn something new. Zoonders features a multi-topic blog that provides news, tips, and upcoming events on a biweekly basis. We’ll help you stay up to date with all the information you need to provide optimum care and a happy life for your furry friend.
+//                                No matter how long you’ve had your pet, it’s always helpful to learn something new. Zoonders features a multi-topic blog that provides news, tips, and upcoming events on a biweekly basis. We’ll help you stay up to date with all the information you need to provide optimum care and a happy life for your furry friend.
 //                             </p>
 
 //                             <h4>Travel Guides</h4>
