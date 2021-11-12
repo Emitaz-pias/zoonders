@@ -58,7 +58,7 @@ const DetailsPage = () => {
 
               <h4>How does it work?</h4>
               <p>
-                You just need to create an account with just on a click. Also,
+                You just need to create an account with just a click. Also,
                 create a profile of your pet, and you can start chatting with
                 the owners of your potential pet Playmates. You can also
                 organize play dates, meet- ups, events, and more.
